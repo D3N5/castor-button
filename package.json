@@ -1,0 +1,45 @@
+{
+  "name": "castor-button",
+  "author": "d3n5",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tsc": "tsc",
+    "lint": "eslint src/**/*.ts",
+    "prettier": "prettier --check \"**/*.ts\" --ignore-path \"./.prettierignore\"",
+    "prettier:fix": "prettier --write \"**/*.ts\" --ignore-path \"./.prettierignore\"",
+    "prepare": "husky"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{ts,js}": [
+      "npm run prettier",
+      "npm run lint"
+    ],
+    "src/**/*.{json,yml,md,html}": "prettier --write"
+  },
+  "dependencies": {
+    "lit": "3.2.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "7.14.1",
+    "@typescript-eslint/parser": "7.14.1",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-lit": "1.15.0",
+    "eslint-plugin-lit-a11y": "4.1.4",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.7",
+    "prettier": "3.3.3",
+    "typescript": "5.5.2",
+    "vite": "5.4.9"
+  }
+}
