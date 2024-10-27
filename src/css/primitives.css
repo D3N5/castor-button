@@ -1,0 +1,69 @@
+/* Customizable */
+
+:root {
+  /* ********** */
+  /* COLORS     */
+  /* ********** */
+
+  /* Grey Scale */
+  --castor-color-grey-100: 0, 0%, 100%; /* #ffffff */
+  --castor-color-grey-200: 0, 0%, 90%; /* ##e6e6e6 */
+  --castor-color-grey-300: 0, 0%, 81%; /* #cecece */
+  --castor-color-grey-400: 0, 0%, 69%; /* #b1b1b1 */
+  --castor-color-grey-500: 0, 0%, 53%; /* #888888 */
+  --castor-color-grey-600: 0, 0%, 35%; /* #595959 */
+  --castor-color-grey-800: 0, 0%, 20%; /* #333333 */
+  --castor-color-grey-900: 245, 25%, 10%; /* #141320 */
+
+  /* Brand */
+  --castor-color-brand-primary: 208, 99%, 32%; /*  #0157a4 */
+  --castor-color-brand-primary-darker: 208, 98%, 23%; /*  #013e75 */
+  --castor-color-brand-primary-darkest: 208, 100%, 13%; /*  #002342 */
+  --castor-color-brand-active: 209, 100%, 64%; /*  #47a7ff */
+
+  /* ********** */
+  /* RADIUS     */
+  /* ********** */
+
+  --castor-radius-1: 4px;
+  --castor-radius-2: 8px;
+  --castor-radius-3: 16px;
+  --castor-radius-4: 400px;
+
+  /* ********** */
+  /* SPACING    */
+  /* ********** */
+
+  --castor-spacing-1: 4px;
+  --castor-spacing-2: 8px;
+  --castor-spacing-3: 12px;
+  --castor-spacing-4: 16px;
+  --castor-spacing-5: 20px;
+  --castor-spacing-6: 24px;
+  --castor-spacing-7: 28px;
+  --castor-spacing-8: 32px;
+  --castor-spacing-9: 36px;
+  --castor-spacing-10: 40px;
+
+  /* ***** */
+  /* FONT  */
+  /* ***** */
+
+  /* Font Family */
+  --castor-font-family-heading: Public Sans, sans-serif;
+  --castor-font-family-content: Public Sans, sans-serif;
+
+  /* Font Size */
+  --castor-font-size-00: 0.875rem;
+  --castor-font-size-0: 1rem;
+  --castor-font-size-1: 1.125rem;
+  --castor-font-size-2: 1.266rem;
+  --castor-font-size-3: 1.424rem;
+  --castor-font-size-4: 1.602rem;
+  --castor-font-size-5: 1.802rem;
+  --castor-font-size-6: 2.027rem;
+
+  /* Font Weight */
+  --castor-font-weight-regular: 400;
+  --castor-font-weight-medium: 500;
+}

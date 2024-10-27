@@ -1,0 +1,15 @@
+/* NOT customizable */
+
+:root {
+  /* Spacing (semantic token) */
+  --spacing-3xs: var(--castor-spacing-1);
+  --spacing-2xs: var(--castor-spacing-2);
+  --spacing-xs: var(--castor-spacing-3);
+  --spacing-sm: var(--castor-spacing-4);
+  --spacing-md: var(--castor-spacing-5);
+  --spacing-lg: var(--castor-spacing-6);
+  --spacing-xl: var(--castor-spacing-7);
+  --spacing-2xl: var(--castor-spacing-8);
+  --spacing-3xl: var(--castor-spacing-9);
+  --spacing-4xl: var(--castor-spacing-10);
+}
