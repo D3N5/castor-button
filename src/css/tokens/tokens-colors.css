@@ -1,0 +1,30 @@
+/* NOT customizable */
+
+:root {
+  /* Functionnal (semantic token) */
+  --colors-functional-active: hsla(var(--castor-color-brand-active));
+
+  /* Disabled state (semantic tokens) */
+  --colors-disabled-stroke: hsla(var(--castor-color-grey-200));
+  --colors-disabled-background: hsla(var(--castor-color-grey-200));
+  --colors-disabled-text: hsla(var(--castor-color-grey-400));
+
+  /* Button (specific tokens) */
+  --colors-button-primary-stroke: hsla(var(--castor-color-brand-primary));
+  --colors-button-primary-background: hsla(var(--castor-color-brand-primary));
+  --colors-button-primary-text: hsla(var(--castor-color-grey-100));
+
+  --colors-button-primary-hover-stroke: hsla(
+    var(--castor-color-brand-primary-darker)
+  );
+  --colors-button-primary-hover-background: hsla(
+    var(--castor-color-brand-primary-darker)
+  );
+
+  --colors-button-primary-active-stroke: hsla(
+    var(--castor-color-brand-primary-darkest)
+  );
+  --colors-button-primary-active-background: hsla(
+    var(--castor-color-brand-primary-darkest)
+  );
+}

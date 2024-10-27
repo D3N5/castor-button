@@ -1,0 +1,21 @@
+/* NOT customizable */
+
+:root {
+  /* Font Family (semantic token) */
+  --font-family-content: var(--castor-font-family-content);
+  --font-family-heading: var(--castor-font-family-heading);
+
+  /* Font size (semantic token) */
+  --font-size-xs: var(--castor-font-size-00);
+  --font-size-sm: var(--castor-font-size-0);
+  --font-size-md: var(--castor-font-size-1);
+  --font-size-lg: var(--castor-font-size-2);
+  --font-size-xl: var(--castor-font-size-3);
+  --font-size-2xl: var(--castor-font-size-4);
+  --font-size-3xl: var(--castor-font-size-5);
+  --font-size-4xl: var(--castor-font-size-6);
+
+  /* Font weight (semantic token) */
+  --font-weight-regular: var(--castor-font-weight-regular);
+  --font-weight-medium: var(--castor-font-weight-medium);
+}
