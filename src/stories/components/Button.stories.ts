@@ -1,4 +1,4 @@
-// import { fn } from '@storybook/test';
+import { fn } from '@storybook/test';
 import type { Meta, StoryObj } from '@storybook/web-components';
 import { html } from 'lit';
 import '../../index.ts';
@@ -55,15 +55,22 @@ export default {
 } as Meta;
 
 export const Default: StoryObj = {
-  args: { type: 'button' },
-  render: ({ type }) => html`<castor-btn type=${type}>label</castor-btn>`,
+  args: { type: 'button', onClick: fn(), onFocus: fn(), onBlur: fn() },
+  render: ({ type, onClick, onFocus, onBlur }) =>
+    html`<castor-btn
+      type=${type}
+      @click="${onClick}"
+      @focus="${onFocus}"
+      @blur="${onBlur}"
+      >label</castor-btn
+    >`,
 };
 
 export const RightIcon: StoryObj = {
   args: { ...Default.args, iconPosition: 'right' },
   render: ({ iconPosition }) =>
     html` <castor-btn iconPosition=${iconPosition}>
-      ${icon()} label
+      ${icon} label
     </castor-btn>`,
 };
 
@@ -71,7 +78,7 @@ export const LeftIcon: StoryObj = {
   args: { ...Default.args, iconPosition: 'left' },
   render: ({ iconPosition }) =>
     html` <castor-btn iconPosition=${iconPosition}>
-      ${icon()} label
+      ${icon} label
     </castor-btn>`,
 };
 

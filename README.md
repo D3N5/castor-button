@@ -19,3 +19,11 @@ Start by testing your component directly in _index.html_.
 ```bash
 npm run dev
 ```
+
+## Storybook
+
+Start Storybook for component showcase.
+
+```bash
+npm run storybook
+```
