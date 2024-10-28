@@ -19,5 +19,6 @@ module.exports = {
     'plugin:lit/recommended',
     'plugin:lit-a11y/recommended',
     'prettier',
+    'plugin:storybook/recommended',
   ],
 };

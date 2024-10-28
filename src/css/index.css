@@ -1,23 +1,10 @@
-@import 'font-face.css';
-@import 'primitives.css';
-@import url('./tokens/tokens-colors.css');
-@import url('./tokens/tokens-font.css');
-@import url('./tokens/tokens-radius.css');
-@import url('./tokens/tokens-spacing.css');
-@import 'typography.css';
+@import 'lib.css';
 
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-html {
-  --theme-secondary: aliceblue;
-}
-my-element {
-  --my-element-background-color: var(--theme-secondary);
 }
 
 .showcase {

@@ -2,6 +2,15 @@
   "name": "castor-button",
   "author": "d3n5",
   "version": "0.0.1",
+  "main": "dist/index.es.js",
+  "exports": {
+    ".": "./dist/index.es.js"
+  },
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +20,9 @@
     "lint": "eslint src/**/*.ts",
     "prettier": "prettier --check \"**/*.ts\" --ignore-path \"./.prettierignore\"",
     "prettier:fix": "prettier --write \"**/*.ts\" --ignore-path \"./.prettierignore\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "husky": {
     "hooks": {
@@ -29,6 +40,12 @@
     "lit": "3.2.1"
   },
   "devDependencies": {
+    "@storybook/addon-a11y": "8.3.6",
+    "@storybook/addon-essentials": "8.3.6",
+    "@storybook/blocks": "8.3.6",
+    "@storybook/test": "8.3.6",
+    "@storybook/web-components": "8.3.6",
+    "@storybook/web-components-vite": "8.3.6",
     "@typescript-eslint/eslint-plugin": "7.14.1",
     "@typescript-eslint/parser": "7.14.1",
     "eslint": "8.57.0",
@@ -36,9 +53,11 @@
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-lit": "1.15.0",
     "eslint-plugin-lit-a11y": "4.1.4",
+    "eslint-plugin-storybook": "0.10.1",
     "husky": "9.0.11",
     "lint-staged": "15.2.7",
     "prettier": "3.3.3",
+    "storybook": "8.3.6",
     "typescript": "5.5.2",
     "vite": "5.4.9"
   }
