@@ -1,0 +1,9 @@
+/* NOT customizable */
+
+:root {
+  /* Radius (semantic token) */
+  --radius-sm: var(--castor-radius-1);
+  --radius-md: var(--castor-radius-2);
+  --radius-lg: var(--castor-radius-3);
+  --radius-full: var(--castor-radius-4);
+}

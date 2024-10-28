@@ -1,0 +1,8 @@
+/* All CSS needed for components to be displayed properly outside of the lib */
+@import 'font-face.css';
+@import 'primitives.css';
+@import url('./tokens/tokens-colors.css');
+@import url('./tokens/tokens-font.css');
+@import url('./tokens/tokens-radius.css');
+@import url('./tokens/tokens-spacing.css');
+@import 'typography.css';
